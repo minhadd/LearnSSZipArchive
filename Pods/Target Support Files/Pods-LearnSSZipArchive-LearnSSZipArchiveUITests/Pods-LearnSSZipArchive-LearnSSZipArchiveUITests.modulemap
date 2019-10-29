@@ -1,0 +1,6 @@
+framework module Pods_LearnSSZipArchive_LearnSSZipArchiveUITests {
+  umbrella header "Pods-LearnSSZipArchive-LearnSSZipArchiveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

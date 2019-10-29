@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20886F406F782AC3D3AADB1 /* Pods_LearnSSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC42164B21586E0450DA5A76 /* Pods_LearnSSZipArchive.framework */; };
+		AD3B998823681B0100DB8387 /* testtest.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD3B998723681B0100DB8387 /* testtest.txt */; };
+		AD3B998A2368289400DB8387 /* test.zip in Resources */ = {isa = PBXBuildFile; fileRef = AD3B99892368289400DB8387 /* test.zip */; };
+		AD5B046C2366DD3C00080DF0 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD5B046B2366DD3C00080DF0 /* test.txt */; };
+		AD84F81A2366919400222AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84F8192366919400222AD2 /* AppDelegate.swift */; };
+		AD84F81C2366919400222AD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84F81B2366919400222AD2 /* SceneDelegate.swift */; };
+		AD84F81E2366919400222AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84F81D2366919400222AD2 /* ViewController.swift */; };
+		AD84F8212366919400222AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD84F81F2366919400222AD2 /* Main.storyboard */; };
+		AD84F8232366919400222AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD84F8222366919400222AD2 /* Assets.xcassets */; };
+		AD84F8262366919400222AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD84F8242366919400222AD2 /* LaunchScreen.storyboard */; };
+		AD84F8312366919500222AD2 /* LearnSSZipArchiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84F8302366919500222AD2 /* LearnSSZipArchiveTests.swift */; };
+		AD84F83C2366919500222AD2 /* LearnSSZipArchiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD84F83B2366919500222AD2 /* LearnSSZipArchiveUITests.swift */; };
+		C2E49878F781E0DDF9BA845A /* Pods_LearnSSZipArchive_LearnSSZipArchiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284134BA7421639B3A5D54FC /* Pods_LearnSSZipArchive_LearnSSZipArchiveUITests.framework */; };
+		F9E680C41B47816681E87F88 /* Pods_LearnSSZipArchiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821F0AA33BDFE106C981B61B /* Pods_LearnSSZipArchiveTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD84F82D2366919500222AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD84F80E2366919400222AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD84F8152366919400222AD2;
+			remoteInfo = LearnSSZipArchive;
+		};
+		AD84F8382366919500222AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD84F80E2366919400222AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD84F8152366919400222AD2;
+			remoteInfo = LearnSSZipArchive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D87CF4013E54A8ABAAE9526 /* Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		284134BA7421639B3A5D54FC /* Pods_LearnSSZipArchive_LearnSSZipArchiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSSZipArchive_LearnSSZipArchiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6076FA65EE12CFAF51A1E412 /* Pods-LearnSSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSSZipArchive.debug.xcconfig"; path = "Target Support Files/Pods-LearnSSZipArchive/Pods-LearnSSZipArchive.debug.xcconfig"; sourceTree = "<group>"; };
+		768B4687E5CB6246DE25B6AA /* Pods-LearnSSZipArchiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSSZipArchiveTests.release.xcconfig"; path = "Target Support Files/Pods-LearnSSZipArchiveTests/Pods-LearnSSZipArchiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		821F0AA33BDFE106C981B61B /* Pods_LearnSSZipArchiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSSZipArchiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF24D928E9572A1A499FEBC /* Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.release.xcconfig"; path = "Target Support Files/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC3FC80AF3D13055BA45A2EC /* Pods-LearnSSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSSZipArchive.release.xcconfig"; path = "Target Support Files/Pods-LearnSSZipArchive/Pods-LearnSSZipArchive.release.xcconfig"; sourceTree = "<group>"; };
+		AD3B998723681B0100DB8387 /* testtest.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testtest.txt; sourceTree = "<group>"; };
+		AD3B99892368289400DB8387 /* test.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = test.zip; sourceTree = "<group>"; };
+		AD5B046B2366DD3C00080DF0 /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		AD84F8162366919400222AD2 /* LearnSSZipArchive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSSZipArchive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD84F8192366919400222AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD84F81B2366919400222AD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD84F81D2366919400222AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD84F8202366919400222AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD84F8222366919400222AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD84F8252366919400222AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD84F8272366919400222AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD84F82C2366919500222AD2 /* LearnSSZipArchiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSSZipArchiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD84F8302366919500222AD2 /* LearnSSZipArchiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSSZipArchiveTests.swift; sourceTree = "<group>"; };
+		AD84F8322366919500222AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD84F8372366919500222AD2 /* LearnSSZipArchiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSSZipArchiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD84F83B2366919500222AD2 /* LearnSSZipArchiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSSZipArchiveUITests.swift; sourceTree = "<group>"; };
+		AD84F83D2366919500222AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC42164B21586E0450DA5A76 /* Pods_LearnSSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E481415BDE5041F18881C08E /* Pods-LearnSSZipArchiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSSZipArchiveTests.debug.xcconfig"; path = "Target Support Files/Pods-LearnSSZipArchiveTests/Pods-LearnSSZipArchiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD84F8132366919400222AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20886F406F782AC3D3AADB1 /* Pods_LearnSSZipArchive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD84F8292366919500222AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E680C41B47816681E87F88 /* Pods_LearnSSZipArchiveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD84F8342366919500222AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E49878F781E0DDF9BA845A /* Pods_LearnSSZipArchive_LearnSSZipArchiveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418BBE933DB88DE60760CF6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC42164B21586E0450DA5A76 /* Pods_LearnSSZipArchive.framework */,
+				284134BA7421639B3A5D54FC /* Pods_LearnSSZipArchive_LearnSSZipArchiveUITests.framework */,
+				821F0AA33BDFE106C981B61B /* Pods_LearnSSZipArchiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD5B04642366D8D600080DF0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD3B99892368289400DB8387 /* test.zip */,
+				AD5B046B2366DD3C00080DF0 /* test.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD84F80D2366919400222AD2 = {
+			isa = PBXGroup;
+			children = (
+				AD84F8182366919400222AD2 /* LearnSSZipArchive */,
+				AD84F82F2366919500222AD2 /* LearnSSZipArchiveTests */,
+				AD84F83A2366919500222AD2 /* LearnSSZipArchiveUITests */,
+				AD84F8172366919400222AD2 /* Products */,
+				D8DAF992A515BE7D2A925F6B /* Pods */,
+				418BBE933DB88DE60760CF6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD84F8172366919400222AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD84F8162366919400222AD2 /* LearnSSZipArchive.app */,
+				AD84F82C2366919500222AD2 /* LearnSSZipArchiveTests.xctest */,
+				AD84F8372366919500222AD2 /* LearnSSZipArchiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD84F8182366919400222AD2 /* LearnSSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B04642366D8D600080DF0 /* Data */,
+				AD84F8192366919400222AD2 /* AppDelegate.swift */,
+				AD84F81B2366919400222AD2 /* SceneDelegate.swift */,
+				AD84F81D2366919400222AD2 /* ViewController.swift */,
+				AD84F81F2366919400222AD2 /* Main.storyboard */,
+				AD84F8222366919400222AD2 /* Assets.xcassets */,
+				AD3B998723681B0100DB8387 /* testtest.txt */,
+				AD84F8242366919400222AD2 /* LaunchScreen.storyboard */,
+				AD84F8272366919400222AD2 /* Info.plist */,
+			);
+			path = LearnSSZipArchive;
+			sourceTree = "<group>";
+		};
+		AD84F82F2366919500222AD2 /* LearnSSZipArchiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD84F8302366919500222AD2 /* LearnSSZipArchiveTests.swift */,
+				AD84F8322366919500222AD2 /* Info.plist */,
+			);
+			path = LearnSSZipArchiveTests;
+			sourceTree = "<group>";
+		};
+		AD84F83A2366919500222AD2 /* LearnSSZipArchiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD84F83B2366919500222AD2 /* LearnSSZipArchiveUITests.swift */,
+				AD84F83D2366919500222AD2 /* Info.plist */,
+			);
+			path = LearnSSZipArchiveUITests;
+			sourceTree = "<group>";
+		};
+		D8DAF992A515BE7D2A925F6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6076FA65EE12CFAF51A1E412 /* Pods-LearnSSZipArchive.debug.xcconfig */,
+				AC3FC80AF3D13055BA45A2EC /* Pods-LearnSSZipArchive.release.xcconfig */,
+				1D87CF4013E54A8ABAAE9526 /* Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.debug.xcconfig */,
+				9FF24D928E9572A1A499FEBC /* Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.release.xcconfig */,
+				E481415BDE5041F18881C08E /* Pods-LearnSSZipArchiveTests.debug.xcconfig */,
+				768B4687E5CB6246DE25B6AA /* Pods-LearnSSZipArchiveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD84F8152366919400222AD2 /* LearnSSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD84F8402366919500222AD2 /* Build configuration list for PBXNativeTarget "LearnSSZipArchive" */;
+			buildPhases = (
+				A811E7B6BE8517770F881F52 /* [CP] Check Pods Manifest.lock */,
+				AD84F8122366919400222AD2 /* Sources */,
+				AD84F8132366919400222AD2 /* Frameworks */,
+				AD84F8142366919400222AD2 /* Resources */,
+				7108CC847ED7B357F875B071 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnSSZipArchive;
+			productName = LearnSSZipArchive;
+			productReference = AD84F8162366919400222AD2 /* LearnSSZipArchive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD84F82B2366919500222AD2 /* LearnSSZipArchiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD84F8432366919500222AD2 /* Build configuration list for PBXNativeTarget "LearnSSZipArchiveTests" */;
+			buildPhases = (
+				80C5CEB1F89AC1513164298E /* [CP] Check Pods Manifest.lock */,
+				AD84F8282366919500222AD2 /* Sources */,
+				AD84F8292366919500222AD2 /* Frameworks */,
+				AD84F82A2366919500222AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD84F82E2366919500222AD2 /* PBXTargetDependency */,
+			);
+			name = LearnSSZipArchiveTests;
+			productName = LearnSSZipArchiveTests;
+			productReference = AD84F82C2366919500222AD2 /* LearnSSZipArchiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD84F8362366919500222AD2 /* LearnSSZipArchiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD84F8462366919500222AD2 /* Build configuration list for PBXNativeTarget "LearnSSZipArchiveUITests" */;
+			buildPhases = (
+				6405033383CB124F6BC5D2D5 /* [CP] Check Pods Manifest.lock */,
+				AD84F8332366919500222AD2 /* Sources */,
+				AD84F8342366919500222AD2 /* Frameworks */,
+				AD84F8352366919500222AD2 /* Resources */,
+				7EEE733170942F64D9375BBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD84F8392366919500222AD2 /* PBXTargetDependency */,
+			);
+			name = LearnSSZipArchiveUITests;
+			productName = LearnSSZipArchiveUITests;
+			productReference = AD84F8372366919500222AD2 /* LearnSSZipArchiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD84F80E2366919400222AD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Minh Tuan Nguyen";
+				TargetAttributes = {
+					AD84F8152366919400222AD2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					AD84F82B2366919500222AD2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = AD84F8152366919400222AD2;
+					};
+					AD84F8362366919500222AD2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = AD84F8152366919400222AD2;
+					};
+				};
+			};
+			buildConfigurationList = AD84F8112366919400222AD2 /* Build configuration list for PBXProject "LearnSSZipArchive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD84F80D2366919400222AD2;
+			productRefGroup = AD84F8172366919400222AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD84F8152366919400222AD2 /* LearnSSZipArchive */,
+				AD84F82B2366919500222AD2 /* LearnSSZipArchiveTests */,
+				AD84F8362366919500222AD2 /* LearnSSZipArchiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD84F8142366919400222AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3B998823681B0100DB8387 /* testtest.txt in Resources */,
+				AD84F8262366919400222AD2 /* LaunchScreen.storyboard in Resources */,
+				AD84F8232366919400222AD2 /* Assets.xcassets in Resources */,
+				AD84F8212366919400222AD2 /* Main.storyboard in Resources */,
+				AD5B046C2366DD3C00080DF0 /* test.txt in Resources */,
+				AD3B998A2368289400DB8387 /* test.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD84F82A2366919500222AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD84F8352366919500222AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6405033383CB124F6BC5D2D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7108CC847ED7B357F875B071 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSSZipArchive/Pods-LearnSSZipArchive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSSZipArchive/Pods-LearnSSZipArchive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnSSZipArchive/Pods-LearnSSZipArchive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEE733170942F64D9375BBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests/Pods-LearnSSZipArchive-LearnSSZipArchiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C5CEB1F89AC1513164298E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnSSZipArchiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A811E7B6BE8517770F881F52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnSSZipArchive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD84F8122366919400222AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD84F81E2366919400222AD2 /* ViewController.swift in Sources */,
+				AD84F81A2366919400222AD2 /* AppDelegate.swift in Sources */,
+				AD84F81C2366919400222AD2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD84F8282366919500222AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD84F8312366919500222AD2 /* LearnSSZipArchiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD84F8332366919500222AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD84F83C2366919500222AD2 /* LearnSSZipArchiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD84F82E2366919500222AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD84F8152366919400222AD2 /* LearnSSZipArchive */;
+			targetProxy = AD84F82D2366919500222AD2 /* PBXContainerItemProxy */;
+		};
+		AD84F8392366919500222AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD84F8152366919400222AD2 /* LearnSSZipArchive */;
+			targetProxy = AD84F8382366919500222AD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD84F81F2366919400222AD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD84F8202366919400222AD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD84F8242366919400222AD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD84F8252366919400222AD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD84F83E2366919500222AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD84F83F2366919500222AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD84F8412366919500222AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6076FA65EE12CFAF51A1E412 /* Pods-LearnSSZipArchive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnSSZipArchive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.questionbank.LearnSSZipArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD84F8422366919500222AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3FC80AF3D13055BA45A2EC /* Pods-LearnSSZipArchive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnSSZipArchive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.questionbank.LearnSSZipArchive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD84F8442366919500222AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E481415BDE5041F18881C08E /* Pods-LearnSSZipArchiveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnSSZipArchiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.questionbank.LearnSSZipArchiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnSSZipArchive.app/LearnSSZipArchive";
+			};
+			name = Debug;
+		};
+		AD84F8452366919500222AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768B4687E5CB6246DE25B6AA /* Pods-LearnSSZipArchiveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnSSZipArchiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.questionbank.LearnSSZipArchiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnSSZipArchive.app/LearnSSZipArchive";
+			};
+			name = Release;
+		};
+		AD84F8472366919500222AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D87CF4013E54A8ABAAE9526 /* Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnSSZipArchiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.questionbank.LearnSSZipArchiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnSSZipArchive;
+			};
+			name = Debug;
+		};
+		AD84F8482366919500222AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF24D928E9572A1A499FEBC /* Pods-LearnSSZipArchive-LearnSSZipArchiveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LearnSSZipArchiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.questionbank.LearnSSZipArchiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnSSZipArchive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD84F8112366919400222AD2 /* Build configuration list for PBXProject "LearnSSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD84F83E2366919500222AD2 /* Debug */,
+				AD84F83F2366919500222AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD84F8402366919500222AD2 /* Build configuration list for PBXNativeTarget "LearnSSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD84F8412366919500222AD2 /* Debug */,
+				AD84F8422366919500222AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD84F8432366919500222AD2 /* Build configuration list for PBXNativeTarget "LearnSSZipArchiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD84F8442366919500222AD2 /* Debug */,
+				AD84F8452366919500222AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD84F8462366919500222AD2 /* Build configuration list for PBXNativeTarget "LearnSSZipArchiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD84F8472366919500222AD2 /* Debug */,
+				AD84F8482366919500222AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD84F80E2366919400222AD2 /* Project object */;
+}
